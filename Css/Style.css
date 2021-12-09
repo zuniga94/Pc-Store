@@ -74,7 +74,7 @@ background-color: #71b100;
 
 /** header **/
 .site-header.inicio {
-    background-image: url(../manteniPC/fondo\ header.jfif);
+    background-image: url(../manteniPC/header-tec.jpg);
     background-position: center center;
     background-size: cover ;
     height: 50vh;
@@ -164,10 +164,10 @@ justify-content: space-between;
 
 /** contacto-home **/
 .imagen-contacto {
-    background-image: url(../manteniPC/MANTE.png);
+    background-image: url(../manteniPC/pc-im.jfif);
     background-position: center center;
     background-size: cover ;
-    height: 40rem;
+    height: 45rem;
     display: flex;
     align-items: center;
 }
