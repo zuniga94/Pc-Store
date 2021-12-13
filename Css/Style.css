@@ -73,6 +73,10 @@ background-color: #71b100;
 }
 
 /** header **/
+.site-header {
+    background-color: #333333;
+    padding: 1rem 0 3rem 0 ;
+}
 .site-header.inicio {
     background-image: url(../manteniPC/header-tec.jpg);
     background-position: center center;
@@ -141,11 +145,15 @@ justify-content: space-between;
 .contenedor-anuncios {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .anuncio {
+    
+    flex-shrink: 0;
     flex-basis: calc(33.3% - 1rem);
     border: 1px solid #b5b5b5;    
     background-color: #f5f5f5;
+    margin-bottom: 2rem;
 }
 .contenido-anuncio {
     padding: 2rem;
@@ -242,4 +250,17 @@ justify-content: space-between;
 .copyright {
     margin: 0;
     color: #ffffff;
+}
+
+/** INTERNAS **/
+.contenedor-nosotros {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2rem
+}
+.texto-nosotros blockquote {
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 2rem;
+    padding: 0 0 3rem 0;
 }
