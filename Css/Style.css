@@ -40,7 +40,6 @@ h4{
     margin: bottom 2rem; 
 }
 
-}
 
 .fw-300 {
     font-weight: 300;
@@ -117,7 +116,7 @@ line-height: 2;
     margin-right: 2rem;
 }
 .navegacion a:hover{
-    color: #71b100  ;
+    color: #71b100;
 }
 
 .navegacion a:last-of-type {
@@ -203,7 +202,7 @@ justify-content: space-between;
     justify-content: space-between;
     margin-bottom: 2rem ;
 }
-.entrada-blog: :last-of-type {
+.entrada-blog :last-of-type {
     margin-bottom: 0;
 }
 .entrada-blog .imagen {
